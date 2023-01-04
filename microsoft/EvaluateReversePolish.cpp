@@ -27,8 +27,11 @@ int evalRPN(vector<string>& tokens) {
 }
 
 int main(){
-   vector<string> tokens = {"10","6","9","3","+","-11","*","/","*","17","+","5","+"}; 
-   int n = tokens.size(); 
+   int n; 
+   cin>>n; 
+
+   vector<string> tokens(n);
+   for(int i=0; i<n; i++) cin>>tokens[i]; 
 
    cout << evalRPN(tokens) << endl;
 
