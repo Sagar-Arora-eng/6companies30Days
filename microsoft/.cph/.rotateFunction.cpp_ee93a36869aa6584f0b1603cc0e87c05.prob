@@ -1,0 +1,1 @@
+{"name":"Local: rotateFunction","url":"e:\\6 Companes 30 days\\microsoft\\rotateFunction.cpp","tests":[{"id":1672833817024,"input":"4\n4 3 2 6","output":"26"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\6 Companes 30 days\\microsoft\\rotateFunction.cpp","group":"local","local":true}
