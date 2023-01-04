@@ -30,11 +30,30 @@ string getHint(string secret, string guess) {
     return ans;  
 }
 
+string getHintV2(string secret, string guess){
+    int n = secret.size(); 
+    unordered_map<char, int> s_map , g_map; 
+    int bull = 0, cow = 0; 
+
+    for(int i=0; i<n; i++){
+        if(secret[i] == guess[i]) bull++; 
+        else{
+            char s = secret[i]; 
+            char g = guess[i]; 
+
+            g_map[s] > 0 ? cow++, g_map[s]-- : s_map[s]++; 
+            s_map[g] > 0 ? cow++, s_map[g]-- : g_map[g]++; 
+        }
+    }
+    string ans = to_string(bull) + "A" + to_string(cow) + "B"; 
+    return ans; 
+}
+
 int main(){
    string secret, guess; 
    cin>>secret>>guess; 
 
-   cout << getHint(secret, guess) << endl; 
-
+//    cout << getHint(secret, guess) << endl; 
+   cout << getHintV2(secret, guess) << endl;
    return 0;
 }
