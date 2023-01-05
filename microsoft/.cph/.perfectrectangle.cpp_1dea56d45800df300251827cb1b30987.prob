@@ -1,0 +1,1 @@
+{"name":"Local: perfectrectangle","url":"e:\\6 Companes 30 days\\microsoft\\perfectrectangle.cpp","tests":[{"id":1672904753282,"input":"5\n1 1 3 3\n3 1 4 2\n3 2 4 4\n1 3 2 4\n2 3 3 4","output":"true"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\6 Companes 30 days\\microsoft\\perfectrectangle.cpp","group":"local","local":true}
