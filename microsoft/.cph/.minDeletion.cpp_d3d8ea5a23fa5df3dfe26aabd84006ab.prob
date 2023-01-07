@@ -1,0 +1,1 @@
+{"name":"Local: minDeletion","url":"e:\\6 Companes 30 days\\microsoft\\minDeletion.cpp","tests":[{"id":1673071725953,"input":"5 5\n2 3 2 4 3\n9 6 9 3 15","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\6 Companes 30 days\\microsoft\\minDeletion.cpp","group":"local","local":true}
