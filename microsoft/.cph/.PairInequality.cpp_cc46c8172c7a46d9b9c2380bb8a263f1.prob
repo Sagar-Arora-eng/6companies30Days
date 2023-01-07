@@ -1,0 +1,1 @@
+{"name":"Local: PairInequality","url":"e:\\6 Companes 30 days\\microsoft\\PairInequality.cpp","tests":[{"id":1673083937718,"input":"3\n3 2 5\n2 2 1\n1","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\6 Companes 30 days\\microsoft\\PairInequality.cpp","group":"local","local":true}
