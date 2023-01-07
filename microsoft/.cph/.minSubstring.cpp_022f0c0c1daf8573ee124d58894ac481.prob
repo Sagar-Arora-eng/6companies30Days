@@ -1,0 +1,1 @@
+{"name":"Local: minSubstring","url":"e:\\6 Companes 30 days\\microsoft\\minSubstring.cpp","tests":[{"id":1673069988106,"input":"abcabc","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\6 Companes 30 days\\microsoft\\minSubstring.cpp","group":"local","local":true}
